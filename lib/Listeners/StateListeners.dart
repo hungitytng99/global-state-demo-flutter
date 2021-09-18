@@ -1,6 +1,6 @@
 import 'dart:developer' as developer;
 
-class StateListners {
+class StateListeners {
   void log([dynamic value = "", String name = ""]) {
     developer.log(value, name: name);
   }

@@ -1,9 +1,9 @@
-import 'package:block_design/Listners/StateListners.dart';
+import 'package:block_design/Listeners/StateListeners.dart';
 import 'package:block_design/Services/Data/GlobalState.dart';
 import 'dart:convert';
 
 class GlobalStateHandler {
-  StateListners stateListners = new StateListners();
+  StateListeners stateListners = new StateListeners();
   GlobalState globalState = new GlobalState();
 
   dynamic getState(String key) {
