@@ -1,5 +1,4 @@
 import 'dart:convert';
-import 'package:property_change_notifier/property_change_notifier.dart';
 
 class GlobalState{
   Map<String, dynamic> _state = {};
